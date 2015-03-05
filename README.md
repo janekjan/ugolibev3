@@ -14,3 +14,4 @@ Import with: import "github.com/janekjan/ugolibev3"
 value := ugolibev3.ReadSensorValue(0)
 
 Put 0 as an argument when you have only one sensor attached and this will work. If you have two sensors the last attached sensor will return from ReadSensorValue(1) and the first attached - from 0. IT'S NOT THE PORT NUMBER.
+It's like in http://www.ev3dev.org/docs/drivers/lego-sensor-class/ sensor<N> file but not counting the disconnected sensors.
