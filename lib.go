@@ -1,4 +1,4 @@
-package tinyev3lib
+package ugolibev3
 
 import (
 	"io/ioutil"
